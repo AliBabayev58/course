@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.head>header>ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.head>header>ul>li>a{
+    color: white;
+}
+.head>header>ul>li>img{
+    width: 45%;
+}
+.head>header>ul>#icon{
+    font-size: 35px;
+    color: white;
+}
+.head>header{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    height: 120px;
+    display: flex;
+    top: 0;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1000;
+}
+.tedris{
+    background-color: #030327;
+    margin-top: 126px;
+}
+.tedris>div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.tedris>div>div>h1{
+    font-size: 3rem;
+    color: white;
+    margin: 40px 0;
+}
+.tedris>div>.algo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    text-align: left;  
+}
+.tedris>div>.algo>ol{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    color: white;
+    font-size: 1.5rem;
+}
+.tedris>div>.down>a{
+    color: white;
+    font-size: 1.6rem;
+    background-color: #3963ff;
+    padding: 13px 32px;
+    border-radius: 6px;
+}
+.tedris>div>.down{
+    margin: 25px 0;
+}
+
+.cdn{
+    margin-top: 180px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 40px;
+    
+}
+.cdn>div>i{
+    font-size: 8rem;
+}
+.cdn>.ic{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.cdn>.ic>p{
+    font-size: 1.3rem;
+}
+.bot{
+    margin-top: 80px;
+    background-color: #1d1d1f;
+    padding: 40px;
+}
+.bot>footer>div>.foot>span{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 40px;
+}
+.bot>footer>div{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.bot>footer>div>#brand>a{
+    color: white;
+}
+.bot>footer>div>#brand{
+    display: flex;
+    gap: 25px;
+    color: white;
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: center;
+}
+.bot>footer>div>.foot>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.2rem;
+    color: #838485;
+}
+.bot>footer>div>.foot{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 35px;
+}
